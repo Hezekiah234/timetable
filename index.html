@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Table </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+ <div class="mx-auto col-6  my-1" id="first">
+  <div style="display: flex; gap: 20px;">
+   <p style="margin-top: 20px;font-size: 16px; font-weight: 600;">COLUMN</p>
+   <input type="number" id="column" class="w-50 my-3 p-2 form-control border border-1 border-danger-subtle">
+  </div>
+   <p style="margin-top: 25px;  font-size: 16px; font-weight: 600; " >ROW</p>
+   <input type="number" id="row" class="w-50 my-1 p-2 form-control border border-1 border-danger-subtle">
+  </div>
+
+  <div id="choose">
+   <select name="" id="choosing" style="background-color: transparent;">
+    <option value="+">Add</option>
+    <option value="-">Subtract</option>
+    <option value="*">Multiply</option>
+    <option value="/">Division</option>
+   </select>
+   <button id="showing" onclick="showALL()">Make A Table</button>
+  </div>
+
+   
+ </div>
+ <table id="displayHERE"  style="text-align: center; margin-top: 100px; border-radius: 12px;" border="2">
+  
+ </table>
+
+ </select>
+
+
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+
+</html>

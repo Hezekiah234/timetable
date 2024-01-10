@@ -1,0 +1,49 @@
+body{
+ background-image: url(image/FB_IMG_16809329059210506.jpg);
+ 
+}
+#first{
+ margin-left: 500px !important;
+}
+#row{
+  margin-top: -50px !important;
+  margin-left: 90px;
+}
+#choose{
+ margin-left: 650px;
+ margin-top: 25px;
+}
+#showing{
+background-color: transparent;
+color: black;
+margin-left: 100px;
+margin-top: 20px;
+}
+
+#showing:hover{
+  background-color: white;
+
+}
+@media screen and (max-width:478px) {
+ #first{
+  margin-left: 50px !important;
+ }
+ #choose{
+  margin-left: 90px;
+  margin-top: 50px;
+  display: block !important;
+}
+#buttons{
+ margin-left: 70px !important;
+}
+#showing{
+  background-color: transparent;
+  color: black;
+  margin-left: 0px;
+  margin-top: 0px;
+  }
+#showing:hover{
+  background-color: white;
+
+}
+}
